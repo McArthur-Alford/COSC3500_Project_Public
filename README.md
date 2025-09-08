@@ -26,6 +26,7 @@ Optimisations include the slab method for box intersections, bounding volume hei
 
 
 # Benchmarking
-I have also developed a full benchmarking utility, which produces in depth analysis like the below:
+I have also developed a full benchmarking utility. It utilizes C++ destructors in scope based timers to accurately profile individual function calls, providing per-pixel pipeline analysis:
+
 <img width="1154" height="1197" alt="image" src="https://github.com/user-attachments/assets/8addb643-d01f-4f82-9002-b5505be58aad" />
 <img width="2580" height="1346" alt="image" src="https://github.com/user-attachments/assets/29bfd857-5c58-4193-9cc1-3a97ff8d2b69" />
