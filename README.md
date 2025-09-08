@@ -1,4 +1,6 @@
-For COSC3500 I have developed a simple raytracing algorithm. While the code cannot be published *publically* until the course is completed, it supports:
+For COSC3500 I have developed a simple raytracing algorithm. While the code cannot be published *publically* until the course is completed.
+
+# Features
 
 Primitives:
 - Quads
@@ -11,6 +13,8 @@ Materials:
 - Metallics
 - Dielectrics (e.g. glass)
 - Plastics
+
+Automatic white balancing and reinhard tone mapping.
 
 Optimisations include the slab method for box intersections, bounding volume heirarchies, upscaling, adaptive sampling rates and light steering.
 
