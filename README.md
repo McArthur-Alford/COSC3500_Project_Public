@@ -10,9 +10,9 @@ Primitives:
 
 Materials:
 - Lambertians
-- Metallics
-- Dielectrics (e.g. glass)
-- Plastics
+- Metallics (with reflection)
+- Dielectrics (with refraction, via snells law)
+- Plastics (combined reflection and lambertian)
 
 Automatic white balancing and reinhard tone mapping.
 
